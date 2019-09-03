@@ -1,0 +1,174 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,input,textarea,select,td,th{
+	margin:0;
+	padding:0;
+}
+html{
+	font-size: 26.67vw;
+}
+body{
+	font-family: "微软雅黑";
+	background: white;
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
+}
+html,body{
+	height: 100%;
+}
+img{
+	border: 0;
+}
+a{
+	text-decoration: none;
+}
+/*header*/
+header{
+	width: 100%;
+	height: .48rem;
+	display: -webkit-flex;
+	-webkit-justify-content: center;
+	-webkit-align-items: center;
+	background: #e94544;
+	position: relative;
+}
+header .ss{
+	height: .30rem;
+	width: 3.45rem;
+	border-radius: .15rem;
+	border:none;
+
+}
+::-webkit-input-placeholder{
+		text-indent: .4rem;
+		font-size: .12rem;
+		color: #97979c;
+	}
+.sous{
+	height: .16rem;
+	width: .17rem;
+	position: absolute;
+	left: .3rem;
+}
+/*center*/
+.center{
+	flex:1;
+	overflow-y: auto;
+}
+/*section*/
+section{
+	width: 100%;
+	display: -webkit-flex;
+}
+section a{
+	display: -webkit-flex;
+}
+section img{
+	height: 1.2rem;
+}
+/*case*/
+.case{
+	width: 100%;
+	display: -webkit-flex;
+	
+	border-top: .01rem solid #efeff4;
+	padding: .11rem 0 .13rem;
+}
+.case a{
+	display: flex;
+	flex-direction: column;
+	-webkit-justify-content: space-between;
+	-webkit-align-items: center;
+	width: 25%;
+}
+.case img{
+	display: block;
+	width: .42rem;
+	height: .42rem;
+	margin-left: 6px;
+	margin-bottom: .08rem;
+}
+.case span{
+	display: block;
+	font-size: .13rem;
+	color: #363636;
+	line-height: .13rem;
+}
+/*baoy*/
+.baoy{
+	width: 100%;
+	border-bottom: .01rem solid #efeff4;
+	display: -webkit-flex;
+	-webkit-justify-content: space-around;
+	-webkit-align-items: center;
+	flex-wrap: wrap;
+}
+.baoy a{
+	display: -webkit-flex;
+	-webkit-flex-direction: column;
+	-webkit-justify-content: center;
+	-webkit-align-items: center;
+	font-size: .09rem;
+	line-height: .1rem;
+	width: 25%;
+	height: .9rem;
+	padding-bottom: .07rem;
+	padding-top: .08rem;
+}
+.baoy img{
+	height: .41rem;
+	display: block;
+}
+
+.baoy a span{
+	display: block;
+	color: #686868;
+	margin: .19rem 0 .05rem;
+}
+.baoy a em{
+	font-style: normal;
+	color: #686868;
+}
+.tongz{
+	display: -webkit-flex;
+	-webkit-justify-content: center;
+	-webkit-align-items: center;
+	width: 100%;
+	padding: .09rem 0 ;
+}
+.tongz a{
+	color: #ec6262;
+	font-size: .11rem;
+}
+/*.beij*/
+.beij{
+	width: 100%;
+	height: .15rem;
+	background: url(../img/beij1.png) repeat-x left top;
+	border-bottom: 1px solid #dddddd;
+}
+/*footer*/
+footer{
+	width: 100%;
+	height: .78rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+footer a{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+footer img{
+	width: .22rem;
+	height: .21rem;
+	display: block;
+	margin-bottom: .08rem;
+}
+footer span{
+	font-size: 10px;
+	color:#7f8389;
+}
+
+
+

@@ -1,0 +1,29 @@
+@font-face {font-family: "iconfont";
+  src: url('../font/iconfont.eot?t=1557899827309'); /* IE9 */
+  src: url('../font/iconfont.eot?t=1557899827309#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAPMAAsAAAAACEgAAAN9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDHAqECIMmATYCJAMQCwoABCAFhG0HQxsTBxEVnAHJfhzGbpMqzqkGsfv60UTjvgfPQ571fpJ2UmhgnRbgDW4XQLuQcRuwKcPWffs5RyAnTNRcUc6iR194aTm9/IwMuKZ+2hIsD2iOEcnZWjjAUQINsAvXIBvoBjQg3jB2E+VBHIcAZqLJRGrUatACHQ0wTgDp0dXTHj3lQKspFXQEY8lS7aLMwoCuTFauATP59+Ur+aKDgkEFTG3irtmJKh/4HKN6y71aUQLleD5AWwUqkAloIF1KAx1Qw3gmKmbnNxrFgI6OAh/44PwcU14uqvZi0KGBvn88BcQIKLYCUCgmVPgAVsRGp+hDuCGlWIQC8EKW6IANWAHsBXAiud6EilitmoSKzSaReqirv2PjVt+WZPu6Td7NLR1T45u2tWEVhxmL5jRYxLzvGJr3uMU19aQYfCeKe2zcKuLbMmVTKIs3t1eFEbIkE7ybk4a7w3dI7TRv0eb1ISHK8vtFjoNnRQ2ab5kasnBJH1m4cer6IDouN5uDxXei1rljYQSZF2wJVj0LpwZ19nSe7900Jdi9wBfiD9rsDRzROB53vBuadJ6Md3nkiGekr04zaK3UDPjeFL6RI7HPE94kYEdhAt8lduZuBrlOugbHeziJuwS34PPED86/5CCoOPvFkrr7aq9bWndRmmHMxiuzwqsVeye3O5c149AEi2PrsHTt1kFjcliy8WD1WAJ/yv7ony5XuW2/PPq113KugXlB+IKGVtoMW7XqeuKWxOcnTzLtdaJ7Hs+4Th8AyqffMLU/j53ZR7VSOji72vW3DmNXT663dVT4r1uuq+mxXC2Q1f2U/0bZWvkTy/yiAAzDdDWIaRpQ49TADiRINsUEb6PEjBn4dWnw58UYpqDWxSDoBMVQ8CMKKjqJpMZmwoCFQhjRqQwzGdRebSGAfqiIZgLSGS9AcLITCnZOQsXJdVJjn8NAMN9hxCkqEBuvdltu7as2R0ViyCn9U5VJz8htm6D0huLdJppUc9EL6qoQRX6YTV3RQ8eY4T5FbMbEKh1dhNPQtkKDSo3M/NJsOAQBlz3Jz6QbbRwpSBjIkdQfqWREj2ljs8l9/gYKb62E1tR05F9AOVXvJOILW5BXQ9+q5lrOcT4KMWMYYUp0yEXwQQvjggzlg2qQMb6yR3RwEEj1uK3Bn9/UPeEuwAz003qt31mf+z6ewdnClfL+Y9aCbTQCAAAA') format('woff2'),
+  url('../font/iconfont.woff?t=1557899827309') format('woff'),
+  url('../font/iconfont.ttf?t=1557899827309') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('../font/iconfont.svg?t=1557899827309#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icon-test:before {
+  content: "\e610";
+}
+
+.icon-shouye:before {
+  content: "\e91f";
+}
+
+.icon-left:before {
+  content: "\e600";
+}
+
